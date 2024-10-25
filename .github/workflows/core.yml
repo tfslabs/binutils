@@ -16,10 +16,6 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        
-      - name: Checking new branch, promoting new version
-        run: |
-          git checkout -b 2.42
 
       - name: Obtain source code from ftp.gnu.org
         run: |

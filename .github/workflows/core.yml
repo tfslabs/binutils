@@ -3,7 +3,7 @@ name: GNU Binutils core forking for GitHub Actions
 on:
   push:
     branches:
-      - no-available-just-rename-in-case-you-want
+      - 2.42
 
 permissions:
   contents: write
